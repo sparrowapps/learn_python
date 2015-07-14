@@ -1,0 +1,25 @@
+
+ubuntu pip install
+$ sudo apt-get install python-pip
+
+$ sudo pip install pil
+No matching distribution found for PIL
+<--- pip 로 pil 설치 실패
+
+ubuntu pip ( python image lib 설치)
+sudo apt-get install python-imaging
+
+
+
+
+mac pip install
+sudo easy_install pip
+
+sudo pip install PIL
+No matching distribution found for PIL
+<-- pip 로 pil 설치 실
+
+
+
+
+
