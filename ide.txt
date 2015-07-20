@@ -1,0 +1,18 @@
+Here are the steps for using Python in Xcode: 
+
+1.	Open Xcode
+2.	Create a new project
+3.	In the template selection box, choose External Build System.
+4.	In the next box, type in a name, company name and Build System. The build system will be usr/bin/python
+5.	Click on the name of your program and click on Edit Scheme.*
+6.	In the Info tab of Run, set the executable to python, which can be found in usr/bin/python.*Next, for Debugger, select none.
+7.	Move over to the Arguments tab. Click on the plus button to add a new argument. Type in the name of the program that youll write.
+8.	Click on OK.
+9.	Right click on your project and click on New File.
+10.	A file template selection window will appear. From here, click on empty and name the file, but make sure to use the same name that you used for your new argument in step 7 Then click on OK. Here, youll type in your program.
+11.	Click on Edit Scheme. In the options tab of Run, check the box that says Use custom working directory. From there, you go through the file path and show Xcode where your Python program is. Click on Okay.*
+12.	Now, your program will run in Xcode.
+
+eclipse + Pydev
+http://egloos.zum.com/anster/v/2170490
+
