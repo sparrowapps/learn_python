@@ -1,11 +1,44 @@
 # python control statement
 
-# if
 
-# if <조건문>:
-#   <수행문>
+
+# if <condition statement>:
+#   <statement>
 # else:
-#   <수행문>
+#   <statement>
 
-# if문 이후 들여 쓰기 레벨이 같은 문장들이 수행 된다. 이부분이 다른 언어와 다른 점이다.
-# 조건문 다음에  : 을 잊어서는 안된다.
+# if indenet
+# condition statement after :
+
+# c, c++ else if --> elif
+
+#while <condition statement>:
+#    <statement>
+#    <statement>
+#    <statement>
+#    <statement>
+
+# break, continue
+
+
+# for variable in LIST(or TUPLE, STRING):
+#   <statement>
+#   <statement>
+
+# range function
+
+# sum of ( 1 to 100 ) 5050
+sum = 0
+for i in range (0, 101):
+    sum = sum + i
+
+print (sum)
+
+
+# the rules of multiplication
+for i in range ( 2, 10):
+    for j in range (1, 10):
+        print(" %d * %d = %d" %(i,j,i*j))
+
+
+
