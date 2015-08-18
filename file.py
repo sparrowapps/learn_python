@@ -1,11 +1,25 @@
 #file
 
-filename = raw_input ("file name :")
+#cat
+#filename = raw_input ("file name :")
 
-f = open(filename,'r')
-lines = f.readlines()
+#f = open(filename,'r')
+#lines = f.readlines()
 
-for line in lines:
-    print(line)
+#for line in lines:
+#    print(line)
 
-f.close()
+#f.close()
+
+# cat version up
+
+import sys
+args = sys.argv[1:]
+
+for i in args:
+    f = open(i, 'r')
+    lines = f.readlines()
+
+    for line in lines:
+        print(line)
+    f.close()
