@@ -23,3 +23,8 @@ for i in args:
     for line in lines:
         print(line)
     f.close()
+
+
+# f = open ( 'w') write mode file open
+# f.write(" ~ ~~ " ) write
+
