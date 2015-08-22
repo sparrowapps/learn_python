@@ -16,3 +16,8 @@ Here are the steps for using Python in Xcode:
 eclipse + Pydev
 http://egloos.zum.com/anster/v/2170490
 
+windows platform IDE:
+Microsoft Visual Studio Express 2015 and PTVS
+https://www.visualstudio.com/downloads/download-visual-studio-vs
+http://pytools.codeplex.com//
+
