@@ -1,3 +1,8 @@
+파이썬 배포판
+아나콘다
+http://continuum.io/downloads/
+
+
 
 ubuntu pip install
 $ sudo apt-get install python-pip
@@ -5,7 +10,6 @@ $ sudo apt-get install python-pip
 $ sudo pip install pil
 No matching distribution found for PIL
 <--- pip 로 pil 설치 실패
-
 ubuntu pip ( python image lib 설치)
 sudo apt-get install python-imaging
 
