@@ -1,3 +1,5 @@
+#-*- coding: utf-8 -*-
+
 #class
 
 #class classname[(parent_class_name)]:
@@ -14,6 +16,20 @@
 
 
 # __init__ (constructor)
+
+
+#클래스 변수
+'''
+    class A:
+        a = 0
+        def __init__(self,name)
+            self.name = name
+            A.a += 1
+a 클래스 변수 (class variable)
+name 객체 변수 (instance variable)
+'''
+
+
 
 # multiplication class
 
