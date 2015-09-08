@@ -21,3 +21,12 @@ Microsoft Visual Studio Express 2015 and PTVS
 https://www.visualstudio.com/downloads/download-visual-studio-vs
 http://pytools.codeplex.com//
 
+32bit windows 7 + VS 2015 CE + pytools 에서 디버깅이 안되는 증상이 있다.
+64bit windows 7 + VS 2015 CE + pytools 정상적으로 디버깅이됨
+
+pycharm mac 잘동작 한다.
+https://www.jetbrains.com/pycharm/
+
+pycharm windows 용의 경우 encoding 문제로 코드를 작성하고 실행을 하면 문제가 발생한다.
+에디터의 인코딩을 utf-8
+프로젝트의 인코딩을 모두 utf-8로 수정을 하고 나니 정상 동작 한다.
