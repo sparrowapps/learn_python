@@ -4,17 +4,17 @@ import sys
 from PyQt4 import QtGui
 from hellowindow import Ui_MainWindow
 
-class hello(QtGui.QMainWindow):
+class Hello (QtGui.QMainWindow):
     def __init__(self):
         QtGui.QMainWindow.__init__(self)
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
 
-    if __name__ == '__main__':
-        app =QtGui.QApplication(sys.argv)
-        window = hello()
-        window.show()
-        sys.exit(app.exec_())
+if __name__ == '__main__':
+    app =QtGui.QApplication(sys.argv)
+    window = Hello()
+    window.show()
+    sys.exit(app.exec_())
 
 '''
 import sys
