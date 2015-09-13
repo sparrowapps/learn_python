@@ -1,20 +1,31 @@
 # coding: utf-8
 
 import sys
-from PyQt4 import QtGui
-from hellowindow import Ui_MainWindow
+from PyQt4.QtGui import *
+from PyQt4.QtCore import *
+from PyQt4 import uic
 
-class Hello (QtGui.QMainWindow):
+from hellowindow import *
+
+
+class Hello (QMainWindow, Ui_MainWindow):
     def __init__(self):
-        QtGui.QMainWindow.__init__(self)
-        self.ui = Ui_MainWindow()
-        self.ui.setupUi(self)
+        QMainWindow.__init__(self)
+        #self.ui = Ui_MainWindow()
+        self.setupUi(self)
+        self.connect(self.pushButton, SIGNAL("clicked()"), self.btn_clicked)
+
+    def btn_clicked(self):
+        text = self.lineEdit.text()
+        self.label.setText("hello sparrow word %s" % text)
+        
 
 if __name__ == '__main__':
-    app =QtGui.QApplication(sys.argv)
+    app =QApplication(sys.argv)
     window = Hello()
     window.show()
     sys.exit(app.exec_())
+
 
 '''
 import sys
