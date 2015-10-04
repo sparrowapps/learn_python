@@ -20,3 +20,12 @@ python C:\Anaconda3\Lib\site-packages\PyQt4\uic\pyuic.py -x about.ui -o about.py
 
 about.ui 파일을 about.py 파이썬 소스 코드로 변환 시킨다.
 
+
+Mac OS ananconda package를 사용하는 경우 QT Designer
+/Users/계정명/anaconda/bin
+에 Designer.app으로 존재 한다.
+
+pyuic.py 모듈 위치
+/Users/계정명/anaconda/pkgs/pyqt-4.11.3-py34_0/lib/python3.4/site-packages/PyQt4/uic
+
+같은 방법으로 리소르를 빌드 해서 클래스모듈로 변환 하여 사용 가능 하다.
