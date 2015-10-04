@@ -29,3 +29,25 @@ pyuic.py 모듈 위치
 /Users/계정명/anaconda/pkgs/pyqt-4.11.3-py34_0/lib/python3.4/site-packages/PyQt4/uic
 
 같은 방법으로 리소르를 빌드 해서 클래스모듈로 변환 하여 사용 가능 하다.
+
+
+OS X에 별도로 python 및 PyQt4를 설치 한경우
+OS X python install
+http://python-guide-kr.readthedocs.org/ko/latest/starting/install/osx.html
+
+python , homebrew
+
+#brew install qt
+
+#brew install sip
+
+#brew install pyqt
+
+http://download.qt.io/archive/qt/4.8/4.8.6/
+에서 qt creator를 설치 하여 qt designer를 사용 할 수 있다.
+디자인한 UI는 .ui 파일로 저장되고 python 용 uic를 이용하여 .py 코드를 얻을수 있다.
+
+pyuic사용 방법
+sparrow:/usr/local/Cellar/pyqt/4.11.3/lib/python2.7/site-packages/PyQt4 sparrow$ python ./uic/pyuic.py -x hello.ui -o hello.py
+
+
