@@ -1,0 +1,17 @@
+import sqlite3
+con = sqlite3.connect("./test.db")
+cur = con.cursor()
+cur.execute("CREATE TABLE PB(NAME TEXT, PN TEXT);")
+cur.execute("INSERT INTO PB VALUES('AA','000-0000-0000');")
+con.commit()
+
+# insert may
+datalist = (('AA','000-0000-0000'), ('BB', '010-0000-0000'))
+cur.exeuctemany("INSERT INTO PB values(?, ?);", datalist)
+
+
+#조회
+cure.execute("SELECT * from PB;")
+for row in cur
+  print(row)
+  
