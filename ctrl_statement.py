@@ -41,4 +41,26 @@ for i in range ( 2, 10):
         print(" %d * %d = %d" %(i,j,i*j))
 
 
+>>> l =  [ 100, 1, "apple"]
+>>> for i in enumerate(l):
+...     print(i)
+... 
+(0, 100)
+(1, 1)
+(2, 'apple')
+
+
+>>> def get20over(i):
+...     return i > 20
+... 
+>>> L = [10, 20, 30, 40]
+>>> Iter = filter(get20over, L)
+>>> for i in Iter:
+...     print(i)
+... 
+30
+40
+>>> 
+
+
 # if statement logical operation C &&, || --> and, or
