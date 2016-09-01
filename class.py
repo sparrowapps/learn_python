@@ -18,7 +18,7 @@
 # __init__ (constructor)
 
 
-#클래스 변수
+#클래스 변수 선언
 '''
     class A:
         a = 0
